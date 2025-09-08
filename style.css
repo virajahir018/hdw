@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.nvb{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url("images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+
+.nvb-a{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.logo{
+    margin-left: 80px;
+    background-color: black;
+    color: rgb(143, 135, 88);
+    width: 160px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    top: 9px;
+}    
+
+b{
+    position: relative;
+    top: 10px;
+}
+
+.nvb-li{
+    display: flex;
+    margin-left: 190px;
+    gap: 120px;
+    font-size: small;
+}
+
+.nvb-inp{
+    margin-left: 180px;
+    position: relative;
+    top: 10px;
+    
+}
+
+input{
+    position: absolute;
+    height: 22px;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid black;
+
+}
+
+.nvb-inp i{
+    margin-left: 130px;
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+}
+
+::placeholder{
+    color: rgb(5,5,5);
+    padding-left: 15px;
+}
+
+.nvb-icon{
+    margin-left: 50px;
+    margin-top: 5px;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    
+}
+
+.nvb-icon i{
+    margin-left: 20px;
+}
+
+
+.p1{
+    position: relative;
+    top: 120px;
+    left: 80px;
+    font-size: 25px;
+    
+}
+
+.h1{
+    position: relative;
+    top: 10px;
+}
+
+.p{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+
+.button1{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    background-color: black;
+    color: rgb(189, 168, 168);
+    border: none;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+
+.h2{
+    height: 80px;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.hero{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    left: 140px;
+    top: 25px;
+
+}
+
+.box1{
+    height: 600px;
+    width: 500px;
+    position: relative;
+    background-image: url("images/box1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.button2{
+    background-color: white;
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    top: 540px;
+    left: 37px;   
+    font-size: large;
+    background-color: rgb(215, 209, 215);
+}
+
+
+.box2{
+    height: 269px;
+    width: 350px;
+    background-image: url("images/box2.jpeg");
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.button3{
+    background-color: white;
+    border: none;
+    width: 130px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    top: 215px;
+    left: 30px;
+    font-size: large;
+    background-color: rgb(215, 209, 215);
+}
+
+.box3{
+    width: 350px;
+    height: 269px;
+    border-radius: 25px;
+    background-image: url("images/box3.jpeg");
+    background-size: cover;
+}
+
+.button4{
+    background-color: rgb(215, 209, 215);
+    border: none;
+    width: 130px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    top: 215px;
+    left: 30px;
+    font-size: large;
+}
+
+.box4{
+    height: 269px;
+    width: 350px;
+    position: relative;
+    top: 328px;
+    right: 380px;
+    background-image: url("images/box4.jpeg");
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.button5{
+    background-color: rgb(215, 209, 215);
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    top: 215px;
+    left: 30px;
+    font-size: large;
+}
+
+.box5{
+    height: 269px;
+    width: 350px;
+    position: relative;
+    left: 533px;
+    bottom: 300px;
+    border-radius: 25px;
+    background-image: url("images/box5.jpeg");
+    background-size: cover;
+}
+
+.button6{
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    top: 215px;
+    left: 30px;
+    font-size: large;
+    background-color: rgb(215, 209, 215);
+}
+
+
+.hero2{
+    width: 82%;
+    height: 350px;
+    margin: auto;   
+    display: flex;
+    gap: 80px;
+    position: relative;
+    top: 20px;
+}
+
+.h-box1{
+    width: 33.33%;
+    height: 350px;
+    border-radius: 25px;
+    background-image: url("images/h-box1.jpeg");
+    background-size: cover;
+}
+
+.h-box2{
+    width: 33.33%;
+    height: 350px;
+    border-radius: 25px;
+    background-image: url("images/h-box2.jpeg");
+    background-size: cover;
+}
+
+.h-box3{
+    width: 33.33%;
+    height: 350px;
+    border-radius: 25px;
+    background-image: url("images/h-box3.jpeg");
+    background-size: cover;
+}
+
+.h-button1{
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    top: 300px;
+    left: 30px;
+    font-size: large;
+    background-color: rgb(215, 209, 215);
+}
+
+.h-button2{
+    border: none;
+    width: 180px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    top: 300px;
+    left: 30px;
+    font-size: large;
+    background-color: rgb(215, 209, 215);
+}
+
+.h-button3{
+    border: none;
+    width: 180px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    top: 300px;
+    left: 30px;
+    font-size: large;
+    background-color: rgb(215, 209, 215);
+}
+
+.btn{
+    position: relative;
+    top: 45px;
+    left: 700px;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
